@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "vunguyentuan.vscode-css-variables",
+    "steoates.autoimport",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "vunguyentuan.vscode-postcss"
+  ]
+}

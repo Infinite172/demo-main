@@ -1,0 +1,9 @@
+/* Default color */
+.iconButton {
+  color: var(--color-content-primary);
+}
+
+/* Color on hover */
+.iconButton:hover {
+  color: var(--color-foundation-negative);
+}

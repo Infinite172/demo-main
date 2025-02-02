@@ -1,0 +1,13 @@
+.wrapper {
+  --_input-height: var(--input-height-md);
+
+  .input {
+    background: var(--mantine-color-white);
+
+    border-color: var(--border-color);
+  }
+
+  label {
+    color: var(--color-background-primary-inverse);
+  }
+}

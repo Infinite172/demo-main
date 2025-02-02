@@ -1,0 +1,106 @@
+:root {
+  --color-primary: hsla(0deg, 0%, 0%, 0.88);
+  --color-secondary: hsla(0deg, 0%, 100%, 1);
+  --color-tertiary: hsla(0deg, 0%, 0%, 0.45);
+  --color-quaternary: hsla(0deg, 0%, 0%, 0.25);
+  --color-dust: hsla(0deg, 0%, 0%, 0.65);
+  --color-progress: hsla(215deg, 100%, 54%, 1);
+  --color-success: hsla(100deg, 77%, 44%, 1);
+  --color-warning: hsla(40deg, 96%, 53%, 1);
+  --color-smoky: hsla(0deg, 0%, 100%, 0.85);
+
+  --color-success-dark: hsla(106deg, 100%, 16%, 1);
+  --color-success-light: hsla(90deg, 100%, 96%, 1);
+
+  --color-danger: hsla(359deg, 100%, 65%, 1);
+  --color-danger-light: hsla(8deg, 100%, 97%, 1);
+  --color-error: hsla(5deg, 100%, 89%, 1);
+
+  --color-chart-first: hsla(98deg, 62%, 53%, 1);
+  --color-chart-second: hsla(104deg, 94%, 24%, 1);
+  --color-chart-third: hsla(92deg, 78%, 86%, 1);
+
+  --color-button-primary: hsla(0deg, 0%, 0%, 0.02);
+  --color-button-secondary: hsla(146deg, 68%, 44%, 1);
+
+  --color-background-primary: hsla(0deg, 0%, 0%, 1);
+  --color-background-secondary: hsla(0deg, 0%, 96%, 1);
+  --color-background-tertiary: hsla(0deg, 0%, 0%, 0.04);
+  --color-background-alter: hsla(0deg, 0%, 19%, 1);
+
+  --color-border-primary: #d9d9d9;
+  --color-border-secondary: hsla(0deg, 0%, 94%, 1);
+  --color-border-tertiary: hsla(0deg, 0%, 85%, 1);
+  --color-border-danger: hsla(5deg, 100%, 89%, 1);
+  --color-border-success: hsla(94deg, 70%, 74%, 1);
+
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 1.75rem;
+  --spacing-8: 2rem;
+  --spacing-9: 2.25rem;
+  --spacing-10: 2.5rem;
+  --spacing-11: 3rem;
+  --spacing-12: 3.5rem;
+  --spacing-14: 4rem;
+  --spacing-24: 6rem;
+  --spacing-32: 8rem;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xxl: 1.5rem;
+
+  @media (max-width: $mantine-breakpoint-xl) {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* small scrollbar */
+.smallScrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}

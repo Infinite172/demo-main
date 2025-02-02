@@ -1,0 +1,10 @@
+.root {
+  .label {
+    margin-bottom: var(--spacing-1);
+    font-weight: 500;
+  }
+}
+
+.error {
+  margin-left: 0.4rem;
+}

@@ -1,0 +1,26 @@
+.root {
+  padding: var(--spacing-2);
+  border-radius: var(--radius-md);
+  transition: all 0.35s ease-in-out;
+  height: auto;
+  position: relative;
+
+  .icon {
+    position: absolute;
+    color: var(--color-content-secondary);
+    opacity: 0;
+    right: var(--spacing-6);
+    transition: all 0.35s ease-in-out;
+  }
+
+  &:hover {
+    background: var(--color-background-accent);
+
+    .icon {
+      opacity: 1;
+      display: block;
+      transform: translateX(var(--spacing-2));
+    }
+  }
+}
+

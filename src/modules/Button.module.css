@@ -1,0 +1,22 @@
+.root {
+  --button-height: var(--button-height-md);
+  border-radius: var(--button-radius, var(--mantine-radius-md));
+
+  transition: all 0.35s ease-in-out;
+
+  &[data-variant='outline'] {
+    border-color: var(--color-border-transparent);
+    color: var(--color-content-primary);
+
+    @mixin hover {
+      &:not([data-loading]):not(:disabled):not([data-disabled]) {
+        border-color: var(--color-primary-hover);
+        color: var(--mantine-primary-color-filled-hover);
+      }
+    }
+  }
+
+  .label {
+    font-weight: 500;
+  }
+}

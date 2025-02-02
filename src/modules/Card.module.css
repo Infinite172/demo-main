@@ -1,0 +1,11 @@
+.root {
+  --card-padding: var(--spacing-8);
+
+  border-color: var(--color-border-transparent);
+  border-width: 2px;
+  border-radius: var(--radius-xxl);
+
+  &[data-variant='small-border'] {
+    border-width: 1px;
+  }
+}
