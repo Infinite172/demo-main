@@ -1,0 +1,9 @@
+.list {
+  transition: all 0.5s ease-in-out;
+}
+
+.list1:hover {
+  scale: 1.1;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
